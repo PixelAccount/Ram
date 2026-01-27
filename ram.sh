@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCRIPT_NAME="$(basename "ByeByeRam.sh")"
+SCRIPT_NAME="$(basename "Ram.sh")"
 TEST_FILE="archivo_de_prueba.txt"
 
 echo "Eating your RAM..."
@@ -22,7 +22,7 @@ if [ -f "/" ]; then
   echo "File Deleted: /"
 else
   echo "File not found: $SCRIPTNAME"
-  echo 
+  echo "Uhm what?"
 fi
 
 # Self-delete
