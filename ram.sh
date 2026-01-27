@@ -1,7 +1,6 @@
 #!/bin/sh
 
 SCRIPT_NAME="$(basename "Ram.sh")"
-TEST_FILE="archivo_de_prueba.txt"
 
 echo "Eating your RAM..."
 sleep 60
